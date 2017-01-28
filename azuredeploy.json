@@ -77,7 +77,7 @@
         "group": "Infrastructure settings",
         "description": "Change this value to your repo name if deploying from a fork"
       },
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/sharepoint-server-farm-ha"
+      "defaultValue": "https://raw.githubusercontent.com/arnaldol/sharepoint2013-ha-mag/master"
     },
     "_artifactsLocationSasToken": {
       "type": "securestring",
