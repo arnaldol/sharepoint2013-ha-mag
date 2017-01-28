@@ -31,9 +31,9 @@ This template will create a SQL Server 2014 Always On Availability Group using t
 
 + 	Once deployed access can be gained at the following addresses:
 
-	+	**SharePoint Website** - http://parameter(dnsPrefix).parameter(location).cloudapp.azure.com
-	+	**Central Admin Website** - http://parameter(spCentralAdminDNSPrefix).parameter(location).cloudapp.azure.com
-	+	**RDP Jump Box** - mstsc -v parameter(rdpDNSPrefix).parameter(location).cloudapp.azure.com
+	+	**SharePoint Website** - http://parameter(dnsPrefix).parameter(location).usgovcloudapi.net
+	+	**Central Admin Website** - http://parameter(spCentralAdminDNSPrefix).parameter(location).usgovcloudapi.net
+	+	**RDP Jump Box** - mstsc -v parameter(rdpDNSPrefix).parameter(location).usgovcloudapi.net
 
 + 	For this sample DSC packages need to be staged from 'dscv2' directory. For example:
 
