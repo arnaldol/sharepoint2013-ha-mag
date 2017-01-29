@@ -9,7 +9,7 @@
       "value": "GEN-PASSWORD"
     },
     "sharepointFarmName": {
-      "value": "SharepointHAFarm"
+      "value": "sphafarm"
     },
     "sqlServerServiceAccountUserName": {
       "value": "sqlservice"

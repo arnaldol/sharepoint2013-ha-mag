@@ -14,13 +14,14 @@
          "metadata":{
             "description":"The name of the Sharepoint farm"
          },
-         "defaultValue":"spfarm"
+         "defaultValue":"sphafarm"
       },
       "adminUsername":{
          "type":"string",
-         "metadata":{
-            "description":"The name of the Administrator of the new VMs and Domain"
-         }
+        "metadata": {
+          "description": "The name of the Administrator of the new VMs and Domain"
+        },
+        "defaultValue": "sphaadmin"
       },
       "adminPassword":{
          "type":"securestring",
@@ -61,7 +62,7 @@
          "metadata":{
             "description":"The FQDN of the AD Domain created "
          },
-         "defaultValue":"sphafarm.local"
+         "defaultValue":"sphasouthcom.mil"
       },
       "sqlServerServiceAccountUserName":{
          "type":"string",
@@ -117,9 +118,10 @@
       },
       "storageAccountNamePrefix":{
          "type":"string",
-         "metadata":{
-            "description":"The prefix of the new storage account created to store the VMs disks, different storage accounts will be created for AD,SQL and Sharepoint VMs"
-         }
+        "metadata": {
+          "description": "The prefix of the new storage account created to store the VMs disks, different storage accounts will be created for AD,SQL and Sharepoint VMs"
+        },
+        "defaultValue": "spha"
       },
       "storageAccountType":{
          "type":"string",
@@ -186,7 +188,7 @@
       },
       "spWebIPRGName":{
          "type":"string",
-         "defaultValue":"",
+         "defaultValue":"RBTESTRG6",
          "metadata":{
             "description":"Resource Group containing existing SP Web IP address"
          }
@@ -284,7 +286,7 @@
          "windowsImageOffer":"WindowsServer",
          "windowsImageSKU":"2012-R2-Datacenter",
          "sqlImagePublisher":"MicrosoftSQLServer",
-         "sqlImageOffer":"SQL2014SP1-WS2012R2",
+         "sqlImageOffer":"SQL2014SP1-WS2012R2", 
          "sqlImageSKU":"Enterprise",
          "spImagePublisher":"MicrosoftSharePoint",
          "spImageOffer":"MicrosoftSharePointServer",
