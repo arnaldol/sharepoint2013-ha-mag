@@ -3,13 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "admin123"
+      "value": "sphaadmin"
     },
     "adminPassword": {
       "value": "GEN-PASSWORD"
     },
     "sharepointFarmName": {
-      "value": "SharepointFarm"
+      "value": "SharepointHAFarm"
     },
     "sqlServerServiceAccountUserName": {
       "value": "sqlservice"
@@ -24,13 +24,13 @@
       "value": "GEN-PASSWORD"
     },
     "sharePointFarmAccountPassword": {
-      "value": "Admin123sp!farm"
+      "value": "Southcom_POC"
     },
     "sharePointFarmPassphrasePassword": {
       "value": "GEN-PASSWORD"
     },
     "spWebIPRGName": {
-      "value": "GEN-UNIQUE-10"
+      "value": "RBTESTRG6"
     },
     "spWebIPAddressName": {
       "value": "spWebIp"
@@ -39,10 +39,10 @@
       "value": "new"
     },
     "dnsPrefix": {
-      "value": "GEN-UNIQUE"
+      "value": "sphasouthcom"
     },
     "storageAccountNamePrefix": {
-      "value": "GEN-UNIQUE"
+      "value": "spha" 
     },
     "storageAccountType": {
       "value": "Premium_LRS"
