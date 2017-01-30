@@ -18,10 +18,9 @@
       },
       "adminUsername":{
          "type":"string",
-        "metadata": {
-          "description": "The name of the Administrator of the new VMs and Domain"
-        },
-        "defaultValue": "sphaadmin"
+         "metadata":{
+            "description":"The name of the Administrator of the new VMs and Domain"
+         }
       },
       "adminPassword":{
          "type":"securestring",
@@ -118,10 +117,9 @@
       },
       "storageAccountNamePrefix":{
          "type":"string",
-        "metadata": {
-          "description": "The prefix of the new storage account created to store the VMs disks, different storage accounts will be created for AD,SQL and Sharepoint VMs"
-        },
-        "defaultValue": "spha"
+         "metadata":{
+            "description":"The prefix of the new storage account created to store the VMs disks, different storage accounts will be created for AD,SQL and Sharepoint VMs"
+         }
       },
       "storageAccountType":{
          "type":"string",
@@ -188,7 +186,7 @@
       },
       "spWebIPRGName":{
          "type":"string",
-         "defaultValue":"RBTESTRG6",
+         "defaultValue":"",
          "metadata":{
             "description":"Resource Group containing existing SP Web IP address"
          }
@@ -286,13 +284,13 @@
          "windowsImageOffer":"WindowsServer",
          "windowsImageSKU":"2012-R2-Datacenter",
          "sqlImagePublisher":"MicrosoftSQLServer",
-         "sqlImageOffer":"SQL2014SP1-WS2012R2", 
+         "sqlImageOffer":"SQL2014SP1-WS2012R2",
          "sqlImageSKU":"Enterprise",
          "spImagePublisher":"MicrosoftSharePoint",
          "spImageOffer":"MicrosoftSharePointServer",
-         "spImageSKU":"2016",
+         "spImageSKU":"2013",
          "rdpPort":3389,
-         "spCentralAdminPort":8080,
+         "spCentralAdminPort":80,
          "windowsDiskSize":128,
          "sqlDiskSize":1000,
          "spDiskSize":128
@@ -313,8 +311,8 @@
       "spAppSubnetRef":"[concat(variables('VnetID'),'/subnets/',variables('subnetNames').spAppSubnetName)]",
       "spWebResourceIdexisting":"[resourceId(parameters('spWebIPRGName'),concat('Microsoft.Network','/','publicIPAddresses'),parameters('spWebIPAddressName'))]",
       "spWebResourceIdnew":"[resourceId(concat('Microsoft.Network','/','publicIPAddresses'),parameters('spWebIPAddressName'))]",
-      "sharepointCAfqdn":"[concat(variables('spCADNSPrefix'),'.',toLower(trim(replace(parameters('location'),' ' ,''))),'.usgovcloudapi.net')]",
-      "sharepointWebfqdn":"[concat(parameters('dnsPrefix'),'.',toLower(trim(replace(parameters('location'),' ' ,''))),'.usgovcloudapi.net')]",
+      "sharepointCAfqdn":"[concat(variables('spCADNSPrefix'),'.',toLower(trim(replace(parameters('location'),' ' ,''))),'.cloudapp.azure.com')]",
+      "sharepointWebfqdn":"[concat(parameters('dnsPrefix'),'.',toLower(trim(replace(parameters('location'),' ' ,''))),'.cloudapp.azure.com')]",
       "ids":{
          "adNicId":"[resourceId('Microsoft.Network/networkInterfaces',variables('adPDCNicName'))]",
          "rdplbID":"[resourceId('Microsoft.Network/loadBalancers',variables('lbSettings').rdpLBName)]",
@@ -1347,3 +1345,4 @@
      }
    }
 }
+
