@@ -311,8 +311,8 @@
       "spAppSubnetRef":"[concat(variables('VnetID'),'/subnets/',variables('subnetNames').spAppSubnetName)]",
       "spWebResourceIdexisting":"[resourceId(parameters('spWebIPRGName'),concat('Microsoft.Network','/','publicIPAddresses'),parameters('spWebIPAddressName'))]",
       "spWebResourceIdnew":"[resourceId(concat('Microsoft.Network','/','publicIPAddresses'),parameters('spWebIPAddressName'))]",
-      "sharepointCAfqdn":"[concat(variables('spCADNSPrefix'),'.',toLower(trim(replace(parameters('location'),' ' ,''))),'.cloudapp.azure.com')]",
-      "sharepointWebfqdn":"[concat(parameters('dnsPrefix'),'.',toLower(trim(replace(parameters('location'),' ' ,''))),'.cloudapp.azure.com')]",
+      "sharepointCAfqdn":"[concat(variables('spCADNSPrefix'),'.',toLower(trim(replace(parameters('location'),' ' ,''))),'.usgovcloudapi.net')]",
+      "sharepointWebfqdn":"[concat(parameters('dnsPrefix'),'.',toLower(trim(replace(parameters('location'),' ' ,''))),'.usgovcloudapi.net')]",
       "ids":{
          "adNicId":"[resourceId('Microsoft.Network/networkInterfaces',variables('adPDCNicName'))]",
          "rdplbID":"[resourceId('Microsoft.Network/loadBalancers',variables('lbSettings').rdpLBName)]",
