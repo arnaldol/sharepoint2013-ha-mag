@@ -288,7 +288,7 @@
          "sqlImageSKU":"Enterprise",
          "spImagePublisher":"MicrosoftSharePoint",
          "spImageOffer":"MicrosoftSharePointServer",
-         "spImageSKU":"2013",
+         "spImageSKU":"2016",
          "rdpPort":3389,
          "spCentralAdminPort":80,
          "windowsDiskSize":128,
