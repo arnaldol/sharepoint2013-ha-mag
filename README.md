@@ -25,7 +25,7 @@ This template will create a SQL Server 2014 Always On Availability Group using t
 	+ 	AD - Latest Windows Server 2012 R2 Image
 	+ 	SQL Server - Latest SQL Server 2014 on Windows Server 2012 R2 Image
 	+ 	Witness - Latest Windows Server 2012 R2 Image
-	+	SharePoint - Latest SharePoint server 2013 trial image on Windows Server 2012 R2
+	+	SharePoint - Latest SharePoint server 2016 trial image on Windows Server 2012 R2
 
 + 	The image configuration is defined in variables - details below - but the scripts that configure this deployment have only been tested with these versions and may not work on other images.
 
