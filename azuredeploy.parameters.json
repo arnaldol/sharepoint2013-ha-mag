@@ -6,7 +6,7 @@
       "value": "sphaadmin"
     },
     "adminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "Southcom_POC"
     },
     "sharepointFarmName": {
       "value": "sphafarm"
@@ -15,19 +15,19 @@
       "value": "sqlservice"
     },
     "sqlServerServiceAccountPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "Southcom_POC"
     },
     "sharePointSetupUserAccountUserName": {
       "value": "spsetup"
     },
     "sharePointSetupUserAccountPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "Southcom_POC"
     },
     "sharePointFarmAccountPassword": {
       "value": "Southcom_POC"
     },
     "sharePointFarmPassphrasePassword": {
-      "value": "GEN-PASSWORD"
+      "value": "Southcom_POC"
     },
     "spWebIPRGName": {
       "value": "RBTESTRG6"
