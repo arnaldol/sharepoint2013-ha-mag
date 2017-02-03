@@ -42,7 +42,7 @@
       "value": "sphasc"
     },
     "storageAccountNamePrefix": {
-      "value": "spha" 
+      "value": "storspha" 
     },
     "storageAccountType": {
       "value": "Premium_LRS"
