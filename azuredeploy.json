@@ -94,7 +94,7 @@
         "group": "Active Directory settings",
         "description": "The FQDN of the AD Domain created "
       },
-      "defaultValue": "sphasouthcom.mil"
+      "defaultValue": "scprod.mil"
     },
     "adVMSize": {
       "type": "string",
