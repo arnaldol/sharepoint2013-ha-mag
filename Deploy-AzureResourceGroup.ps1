@@ -139,6 +139,6 @@ else {
                                        -TemplateFile $TemplateFile `
                                        -TemplateParameterFile $TemplateParametersFile `
                                        @OptionalParameters `
-                                       -Force -Verbose 
+                                       -Force -Verbose -Mode Complete
 }
 
