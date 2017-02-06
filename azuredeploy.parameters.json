@@ -30,7 +30,7 @@
       "value": "Southcom_POC"
     },
     "spWebIPRGName": {
-      "value": ""
+      "value": "[resourceGroup().name]"
     },
     "spWebIPAddressName": {
       "value": "spWebIp"

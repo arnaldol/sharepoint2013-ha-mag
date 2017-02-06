@@ -186,7 +186,7 @@
       },
       "spWebIPRGName":{
          "type":"string",
-         "defaultValue":"",
+         "defaultValue":"[resourceGroup().name]",
          "metadata":{
             "description":"Resource Group containing existing SP Web IP address"
          }
@@ -407,7 +407,7 @@
          "setupLBsUrl":"[concat(parameters('baseUrl'),'/setupLBs.json')]",
          "creatingNicsUrl":"[concat(parameters('baseUrl'),'/creatingNICS.json')]"
       },
-      "assetLocation":"https://sdaviesms.blob.core.windows.net/marketplaceprod/dscv2"
+      "assetLocation":"https://github.com/arnaldol/sharepoint2013-ha-mag/tree/master/dscv2"
    },
    "resources":[
       {
@@ -521,7 +521,7 @@
                   "value":"[variables('spCADNSPrefix')]"
                },
                "publicIpRGName":{
-                  "value":"[resourceGroup().name]"
+                  "value": ""
                }
             }
          }
