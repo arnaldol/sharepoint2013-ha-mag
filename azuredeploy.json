@@ -94,7 +94,7 @@
         "group": "Active Directory settings",
         "description": "The FQDN of the AD Domain created "
       },
-      "defaultValue": "scprod.mil"
+      "defaultValue": "scprod"
     },
     "adVMSize": {
       "type": "string",

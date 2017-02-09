@@ -60,7 +60,7 @@
       "value": "Standard_DS3"
     },
     "domainName": {
-      "value": "scprod.mil"
+      "value": "scprod"
     }
   }
 }
