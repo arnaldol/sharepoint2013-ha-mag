@@ -157,7 +157,7 @@
             "autoUpgradeMinorVersion": true,
             "settings": {
               "modulesURL": "[parameters('fswPreparationModulesURL')]",
-              "wmfVersion": "4.0",
+              "wmfVersion": "latest",
               "configurationFunction": "[parameters('fswPreparationFunction')]",
               "properties": {
                 "DNSServer": "[parameters('DNSServer')]",

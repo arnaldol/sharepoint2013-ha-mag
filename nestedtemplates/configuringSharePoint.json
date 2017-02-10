@@ -88,7 +88,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "modulesURL": "[parameters('spConfigurationModulesURL')]",
-          "wmfVersion": "4.0",
+          "wmfVersion": "latest",
           "configurationFunction": "[parameters('spConfigurationFunction')]",
           "properties": {
             "domainName": "[parameters('domainName')]",
@@ -151,7 +151,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "modulesURL": "[parameters('spConfigurationModulesURL')]",
-          "wmfVersion": "4.0",
+          "wmfVersion": "latest",
           "configurationFunction": "[parameters('spConfigurationFunction')]",
           "properties": {
             "domainName": "[parameters('domainName')]",
@@ -211,7 +211,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "modulesURL": "[parameters('spConfigurationModulesURL')]",
-          "wmfVersion": "4.0",
+          "wmfVersion": "latest",
           "configurationFunction": "[parameters('spConfigurationFunction')]",
           "properties": {
             "domainName": "[parameters('domainName')]",
@@ -271,7 +271,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "modulesURL": "[parameters('spConfigurationModulesURL')]",
-          "wmfVersion": "4.0",
+          "wmfVersion": "latest",
           "configurationFunction": "[parameters('spConfigurationFunction')]",
           "properties": {
             "domainName": "[parameters('domainName')]",
