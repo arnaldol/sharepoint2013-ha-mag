@@ -238,7 +238,7 @@
               "domainNameLabel": "DNS label for the SharePoint web tiers' public IP address, which hosts the first site collection."
             },
             "defaultValue": {
-              "publicIpAddressName": "ip01"
+              "publicIpAddressName": "spWebIp"
             },
             "options": {
               "hideNone": true,
