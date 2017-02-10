@@ -96,7 +96,7 @@
             "type": "Microsoft.Common.TextBox",
             "label": "Forest root domain name",
             "toolTip": "Fully-qualified domain name of the Active directory domain.",
-            "defaultValue": "scprod",
+            "defaultValue": "sphafarm.local",
             "constraints": {
               "required": true,
               "regex": "^([a-z0-9]+\\.)?([a-z0-9][a-z0-9-]*\\.)+[a-z]{2,6}$",
