@@ -88,7 +88,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "modulesURL": "[parameters('fswConfigurationModulesURL')]",
-          "wmfVersion": "5.0",
+          "wmfVersion": "latest",
           "configurationFunction": "[parameters('fswConfigurationFunction')]",
           "properties": {
             "domainName": "[parameters('domainName')]",
@@ -117,7 +117,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "modulesURL": "[parameters('sqlAOConfigurationModulesURL')]",
-          "wmfVersion": "5.0",
+          "wmfVersion": "latest",
           "configurationFunction": "[parameters('sqlAOConfigurationFunction')]",
           "properties": {
             "domainName": "[parameters('domainName')]",
@@ -161,7 +161,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "modulesURL": "[parameters('configureClusterModulesURL')]",
-          "wmfVersion": "5.0",
+          "wmfVersion": "latest",
           "configurationFunction": "[parameters('configureClusterConfigurationFunction')]",
           "properties": {
             "domainName": "[parameters('domainName')]",
