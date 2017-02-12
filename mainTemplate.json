@@ -61,7 +61,7 @@
          "metadata":{
             "description":"The FQDN of the AD Domain created "
          },
-         "defaultValue":"sphafarm.local"
+         "defaultValue":"southcomha.mil"
       },
       "sqlServerServiceAccountUserName":{
          "type":"string",
